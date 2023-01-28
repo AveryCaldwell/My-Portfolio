@@ -3,8 +3,9 @@
 <br>
 
 ## Table of contents
+- [Description](#description)
 - [Overview](#overview)
-  - [The Challenge](#the-challenge)
+  - [User experience](#user-experience)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -13,50 +14,34 @@
 - [Author](#author)
 
 <br>
-<hr>
+<br>
+
+# 📝 Description
+
+- A portfolio consisting of education, training, skills and experiences that provides insight into my personality and work ethic. 
+
 <br>
 
 # 📁 Overview
 
-## **The Challenge**
+### 👤 User Experience
+1. Once the coverpage has loaded, then click the "Show More" button to view the portfolio.
+2. Scroll to see listed projects
+3. Click on the project image to be taken to the live page of the application or Github repository
+4. Navigation links will be available for further contact and social media links
 
-​
-## User Story
-
-```md
-- AS A developer
-- I WANT a README generator
-- SO THAT I can quickly create a professional README for a new project
-```
-
-## Acceptance Criteria
-
-```md
-- GIVEN a command-line application that accepts user input
-- WHEN I am prompted for information about my application repository
-- THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-- WHEN I enter my project title
-- THEN this is displayed as the title of the README
-- WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-- THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-- WHEN I choose a license for my application from a list of options
-- THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-- WHEN I enter my GitHub username
-- THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-- WHEN I enter my email address
-- THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-- WHEN I click on the links in the Table of Contents
-- THEN I am taken to the corresponding section of the README
-```
+<br>
 
 ### 📷 Screenshot 
 ​
-![](./readme-assets/solution.png)
+![](./assets/images/screenshot.png)
 ​
-​
-### 📎 Links 
-​
+​<br>
+
+### 🔗 Links 
 - Live URL: [https://averycaldwell.github.io/My-Portfolio/](https://drive.google.https://averycaldwell.github.io/My-Portfolio/)
+
+
 <br>
 <hr>
 <br>
@@ -75,7 +60,7 @@
 
 ### 📚 Useful resources
 
-- Emojis - Emojis
+- Emojis: [https://github.com/ikatyang/emoji-cheat-sheet#office](https://github.com/ikatyang/emoji-cheat-sheet#office)
 ​
 
 <br>
@@ -84,4 +69,6 @@
 
 ## Author ✏️
   Avery Caldwell
-- GitHub - [AveryCaldwell](https://github.com/AveryCaldwell)
+  - Email: [AveryCaldwell7@gmail.com](AveryCaldwell7@gmail.com)
+  - LinkedIn: [https://www.linkedin.com/in/averycaldwell/](https://www.linkedin.com/in/averycaldwell/)
+  - GitHub: [AveryCaldwell](https://github.com/AveryCaldwell)
