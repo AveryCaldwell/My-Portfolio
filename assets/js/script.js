@@ -32,3 +32,4 @@ window.addEventListener('load', (event) => {
     hideSections('container');
     activeSection('coverpage');
 });
+ 
