@@ -39,7 +39,7 @@
 ​<br>
 
 ### 🔗 Links 
-- Live URL: [https://averycaldwell.github.io/My-Portfolio/](https://drive.google.https://averycaldwell.github.io/My-Portfolio/)
+- Live URL: [https://averycaldwell.github.io/My-Portfolio/](https://averycaldwell.github.io/My-Portfolio/)
 
 
 <br>
