@@ -12,21 +12,25 @@
     --mint: #cae8d5;
     --teal: #3b6978;
 }
+/* -------------------------NAVBAR------------------------------------ */
+.navbar-nav a {
+    text-align: right;
+}
 /* -------------------------COVERPAGE------------------------------------ */
 #coverpage {
     width: 100%;
-    /* height: 100vh; */
-    height: auto;
+    height: 100%;
+    background-image: url('/assets/images/bg-grid.jpg');
 }
-#coverVideo {
+/* #coverVideo {
     overflow: hidden;
     width: 100%;
     position: relative;
     display: block;
-    /* height: 100vh; */
     height: auto;
-}
-.content {
+} */
+
+/* .content {
     top: 50%;
     right: 50%;
     position: absolute;
@@ -34,12 +38,27 @@
     right: 40%;
     top: 40%;
     font-size: 6em;
+} */
+.content {
+    background-image: url('/assets/video/computer-bg.gif');
+    background-size: contain;
+    /* background-size: cover; */
+    height: 100vh;
+    padding: 0;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
-#myBtn {
+#myBtn,
+#myBtn img {
+    position: relative;
     border: none;
     background-color: transparent;
-    right: 300px;
+    /* right: 300px; */
+    left: 240px;
+    top: 5px;
+    height: 170px;
+    width: 105px;
 }
 #myBtn:hover {
     opacity: 75%;
@@ -52,6 +71,33 @@
     left: 50%;
     position: relative;
 }
+/* ------------------------ABOUT SECTION----------------------------------------- */
+.about-me {
+    position: relative;
+    color: white !important;
+    background-color: #84a9ac;
+    margin-top: 70px;
+    width: 100%;
+    padding: 20px;
+    font-size: 26px;
+}
+.about-header {
+    width: 100%;
+    font-size: 40px;
+}
+.about-body {
+    width: 75%;
+    font-size: 18px;
+    padding: 10px;
+}
+.about-me .about-emote {
+    height: 100px;
+    bottom: 0px;
+    right: 50px;
+    position: absolute;
+    text-align: center;
+}
+
 /* ----------------------------BANNER--------------------------------- */
 .banner-image-container {
     background-color: #cae8d5;
@@ -137,36 +183,11 @@ h3 {
         opacity: 1;
     }
 }
-/* ------------------------ABOUT SECTION----------------------------------------- */
-.about-me {
-    position: relative;
-    color: white !important;
-    background-color: #84a9ac;
-    margin-top: 70px;
-    width: 100%;
-    padding: 20px;
-}
-.about-header,
-.about-body {
-    position: relative;
-    /* color: white !important; */
-    /* margin-top: 70px; */
-    width: 100%;
-    /* padding: 20px; */
-}
-.about-body {
-    width: 85%;
-}
-.about-me .about-emote {
-    height: 100px;
-    bottom: 0px;
-    right: 50px;
-    position: absolute;
-    text-align: center;
-}
+
 /* ------------------------MAIN PAGE----------------------------------------- */
 .flexbox-container {
-    display: none;
+    /* TODO: REMOVE */
+    /* display: none; */
     flex-wrap: wrap;
     justify-content: space-around; /* even amt of space on all sides */
     align-items: center;
@@ -198,7 +219,26 @@ h3 {
     background-color: var(--lightblue);
     min-height: 300px;
 }
-
+.proj-two {
+    /* position: absolute; */
+    margin-top: 100px;
+    border: 1px black solid;
+    border-radius: 12px;
+    width: 50%;
+    background-color: var(--sage);
+    text-align: center;
+    color: white;
+    box-shadow: 10px 5px 5px gray;
+}
+.proj-two-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+.proj-two-link {
+    color: var(--lightblue);
+    font-size: 22px;
+}
 /* ------------------------MEDIA QUERIES------------------------------------- */
 /* 
 @media screen and (min-width: 900px) {

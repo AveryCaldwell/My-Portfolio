@@ -5,20 +5,20 @@ let container = document.getElementById('container');
 // Hides sections until active
 const hideSections = function () {
     coverpage.style.display = 'none';
-    // container.style.display = 'none';
+    container.style.display = 'none';
 };
 
 // Dsiplays active sections by id's
-// function activeSection(section) {
-// hideSections();
-// if (section === 'coverpage') {
-// coverpage.style.display = 'block';
-// } else if (section === 'content') {
-// content.style.display = 'block';
-// } else if (section === 'container') {
-// container.style.display = 'block';
-// }
-// }
+function activeSection(section) {
+hideSections();
+if (section === 'coverpage') {
+coverpage.style.display = 'block';
+} else if (section === 'content') {
+content.style.display = 'block';
+} else if (section === 'container') {
+container.style.display = 'block';
+}
+}
 
 myBtn.addEventListener('click', function () {
     currentPage = 1;
@@ -32,4 +32,3 @@ window.addEventListener('load', (event) => {
     hideSections('container');
     activeSection('coverpage');
 });
- 

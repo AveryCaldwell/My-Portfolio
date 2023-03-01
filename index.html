@@ -6,35 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
 <body>
-    <!-- Coverpage -->
-    <div id="coverpage">
-        <!-- The video -->
-        <video autoplay muted loop id="coverVideo">
-            <source src="./assets/video/90s-Room.mp4" type="video/mp4">
-        </video>
-        <!--  Overlay text to describe the video -->
-        <div class="content">
-            <h1 class="greeting">Hi, my name is Avery!</h1>
-            <p>I'm a full stack developer</p>
-            <!-- Use a button to pause/play the video with JavaScript -->
+    <!--------------------------- Coverpage------------------------- -->
+    <!-- <div id="coverpage"> 
+        --------NAVBAR----------
+        <nav class="navbar">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Portfolio</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        ---------------- The video ------------------>
+    <!-- <div class="content"> 
+             <video autoplay muted loop id="coverVideo">
+            </video> 
+             <h1 class="about-header">Hi, my name is Avery!</h1>
+            <p class="about-body">Hiya! I'm Avery, lovely to meet you!
+            I am a passionate content-creator, streamer, full stack developer in the making just trying to dance
+            through
+            life.
+            Having a background in marketing, graphic design, and operational work makes me a well-rounded,
+            versatile
+            individual.</p>
+             </br>
+             </p> 
+            <h3 class="about-link link-light"><a href="mailto:averycaldwell7@gmail.com">Let's create something!</a>
+            Use a button to pause/play the video with JavaScript 
             <div class="nextpage">
-                <button id="myBtn"><img src="./assets/images/coverBtn.png" /></button>
+                <button id="myBtn"><img src='./assets/images/folder.png' alt="button" /></button>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
-    <!--Portfolio Page  -->
+    <!---------------------------Portfolio Page--------------------------->
     <div id="container">
         <!-- Banner -->
         <div class="banner-image-container ">
@@ -57,18 +77,16 @@
             </div>
         </div>
     </div>
-    <div class="about-me">
-        <h2 class="about-header">About Me</h2>
-        <p class="about-body"> Hiya! I'm Avery, lovely to meet you! </br>
-            I am a passionate content-creator, streamer, full stack developer in the making just trying to dance through
-            life. </br>
-            Having a background in marketing, graphic design, and operational work makes me a well-rounded, versatile
-            individual. </br>
-            Take a look for yourself!
-        </p>
-        <img class="about-emote" src="./assets/images/aves_hi.png" alt="Hi Emote">
+
+    <!--------------------------- main body------------------------- -->
+    <br>
+    <div class="proj-two container">
+        <h1 class="proj-two-title"><a href="https://github.com/mathewsida/CheersCheck" class="proj-two-title">Cheers
+                Check</a></h1>
+        <!-- TODO: update repo link  -->
+        <p class=""><a href="https://github.com/mathewsida/CheersCheck" class="proj-two-link">Project 2<br>HTML,
+                CSS, JS, Sequelize, Bootstrap, Heroku, and Handlebars</a></p>
     </div>
-    <!-- main body -->
     <div class="flexbox-container">
         <div class="flexbox-item">
             <h1>Title</h1>
